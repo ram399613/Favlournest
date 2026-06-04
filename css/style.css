@@ -140,7 +140,7 @@ header .icons #menu-bars{
     gap:2rem; 
     padding-top: 60px;
 }
-/* 
+
 header .icons .icon{
     display: inline-block;
     font-size: 44px;
@@ -164,7 +164,26 @@ header .icons .icon{
     100%{
         transform: translateY(0);
     }
-} */
+}
+
+.animate-top{
+    position: relative;
+    animation: animatetop 0.4s;
+}
+@keyframes animatetop{
+    from{top:-300px; opacity:0}
+    to{top:0; opacity:1}
+}
+
+.animate-bottom{
+    position: relative;
+    animation: animatebottom 0.4s;
+}
+@keyframes animatebottom{
+    from{bottom:-300px; opacity:0}
+    to{bottom:0; opacity:1}
+}
+
 
 .home .home-slider .slide .content{
     flex:1 1 45rem;
