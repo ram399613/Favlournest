@@ -109,11 +109,11 @@ header .icons i,
 header .icons a{
     cursor: pointer;
     margin-left: .5rem;
-    height:4.5rem;
-    line-height: 4.5rem;
-    width:4.5rem;
+    height:5.5rem;
+    line-height: 5.5rem;
+    width:5.5rem;
     text-align: center;
-    font-size: 1.7rem;
+    font-size: 2.5rem;
     color:var(--blue);
     border-radius: 50%;
     background: #eee;
@@ -143,7 +143,7 @@ header .icons #menu-bars{
 
 header .icons .icon{
     display: inline-block;
-    font-size: 44px;
+    font-size: 2.5rem;
     animation: float 5s ease-in-out;
 }
 
